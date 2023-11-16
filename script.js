@@ -22,7 +22,7 @@ function storeRec(){
 let x= document.getElementById("RetriveKey").value
 
 if( x in localStorage){
-    alert("This Item Alredy Exists")
+   
 }else{
     alert("This Key is Not Present")
 }
